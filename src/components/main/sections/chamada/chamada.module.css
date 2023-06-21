@@ -47,7 +47,7 @@
   margin-top: 10px;
 }
 
-.landing-page {
+.chamada {
   font-family: circular;
   display: flex;
   flex-direction: column;
@@ -57,12 +57,12 @@
   height: 100vh;
 }
 
-.landing-page h1 {
+.chamada h1 {
   font-weight: bold;
   font-size: xxx-large;
 }
 
-.landing-page h2 {
+.chamada h2 {
   font-weight: lighter;
   font-size: large;
   margin-top: -20px;
