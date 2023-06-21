@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Anton';
+    src: url('/caminho/para/a/fonte/Anton.ttf');
+  }
+  
+  @font-face {
+    font-family: 'circular';
+    src: url(./src/font/circular.woff);
+  }
+  
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .content-container {
+    font-family: 'Circular', sans-serif;
+  }
+  
+  .title {
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+  }
+  
+  .video {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+  }  
