@@ -1,36 +1,55 @@
 @font-face {
-    font-family: 'Anton';
-    src: url('/caminho/para/a/fonte/Anton.ttf');
-  }
-  
-  @font-face {
-    font-family: 'circular';
-    src: url(./src/font/circular.woff);
-  }
-  
-  .video-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .content-container {
-    font-family: 'Circular', sans-serif;
-  }
-  
-  .title {
-    font-family: 'Anton', sans-serif;
-    font-size: 24px;
-  }
-  
-  .subtitle {
-    font-size: 16px;
-  }
-  
-  .video {
-    width: 100%;
-    max-width: 500px;
-    margin-top: 20px;
-  }  
+  font-family: 'anton';
+  src: url(./src/font/anton.ttf);
+}
+
+@font-face {
+  font-family: 'circular';
+  src: url(./src/font/circular.woff);
+}
+
+.video-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: center;
+  background-color: #55AAA7;
+}
+
+.content-container {
+  font-family: anton;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 200px;
+
+}
+
+.titulo {
+  font-family: anton;
+  font-weight: 300;
+  font-size: 50px;
+  margin-top: -10px;
+}
+
+.titulo2 {
+  font-family: anton;
+  margin-top: -50px;
+  font-weight: 400;
+  font-size: 80px;
+}
+
+.subtitulo {
+  font-family: circular;
+  font-size: 16px;
+  text-align: justify;
+  margin-top: -80px;
+}
+
+.video {
+  width: 100%;
+  max-width: 500px;
+  margin-left: 30px;
+}
