@@ -12,7 +12,7 @@ export default function Conheca() {
           <p className={styles['subtitulo']}>Alugar um consultório odontológico pode ser mais viável do que parece.</p>
         </div>
 
-        <video className={styles['video']} src="/caminho/para/o/video.mp4" controls />
+        <video className={styles['video']} src="./src/components/media/ppuse_institucional.mp4" controls />
       
       </div>
     </div>
