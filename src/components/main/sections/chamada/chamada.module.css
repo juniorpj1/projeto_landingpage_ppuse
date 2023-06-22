@@ -20,6 +20,7 @@
 }
 
 .header {
+  margin-top: 80px;
   font-size: medium;
   margin-bottom: 0px;
   display: flex;
@@ -41,7 +42,7 @@
 
 .line {
   width: 250px;
-  height: 1px;
+  height: 2px;
   background-color: #D4676D;
   margin-top: 10px;
 }

@@ -4,6 +4,7 @@ import styles from "./chamada.module.css"
 export default function Chamada() {
   return (
     <div className={styles.container}>
+      
       <div className={styles.header}>
         <img src="public/logo_chamada.png" alt="Logomarca do site PPUSE" />
         <text>PPUSE</text>
